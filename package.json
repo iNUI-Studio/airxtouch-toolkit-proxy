@@ -1,0 +1,36 @@
+{
+  "name": "airxtouch-toolkit-proxy",
+  "version": "0.1.0",
+  "description": "Easily configure your AIRxTOUCH driver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iNUI-Studio/airxtouch-toolkit-proxy.git"
+  },
+  "author": "iNUI STUDIO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iNUI-Studio/airxtouch-toolkit-proxy/issues"
+  },
+  "homepage": "https://github.com/iNUI-Studio/airxtouch-toolkit-proxy",
+  "keywords": [
+    "airxtouch"
+  ],
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublishOnly": "./node_modules/.bin/tsc",
+    "postpublish": "npm run clean",
+    "patch": "npm version patch && npm publish && npm run clean",
+    "minor": "npm version minor && npm publish && npm run clean",
+    "major": "npm version major && npm publish && npm run clean",
+    "clean": "rmdir /s /q dist"
+  },
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.2"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+  },
+  "sideEffects": false
+}

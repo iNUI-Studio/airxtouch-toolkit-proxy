@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "target": "es5",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "lib": ["dom", "es2017", "es5", "es6", "es7"],
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": ["docs/*", "*.js", "examples"]
+}
