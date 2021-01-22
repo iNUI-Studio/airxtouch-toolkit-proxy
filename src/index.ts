@@ -64,10 +64,10 @@ export const GetElementBounds = (ref: MutableRefObject<HTMLElement> | string, zI
     if (element) {
         const boundingBox = element.getBoundingClientRect();
         const layout: AIRxTouchLayoutSetting = {
-            X1: boundingBox.left,
-            X2: boundingBox.right,
-            Y1: boundingBox.top,
-            Y2: boundingBox.bottom,
+            X1: Math.round(boundingBox.left),
+            X2: Math.round(boundingBox.right),
+            Y1: Math.round(boundingBox.top),
+            Y2: Math.round(boundingBox.bottom),
             ZIndex: zIndex,
             DistanceForMoving: distanceForMoving
         };
