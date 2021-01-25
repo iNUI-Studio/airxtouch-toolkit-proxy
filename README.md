@@ -79,10 +79,19 @@ You can interact with the driver by adding and editing attributes on the `airxto
 | data-hoverinteraction | **Boolean**. Default to false  |     |
 | data-layout | Array of **AIRxTouchLayoutSetting**, can be generated using **GetElementBounds**. used when you need differents layout setting on the same page. (More details on the examples) |     |
 
-## Examples
+## Code examples
 
 [Simple example](https://codesandbox.io/s/airxtouch-toolkit-simple-example-lk3sf?file=/src/index.js)
 : Init config and toggle simple options
 
 [data-layout example ](https://codesandbox.io/s/airxtouch-toolkit-advanced-example-6uv9s?file=/src/index.js)
 : How to use **data-layout** & **GetElementBounds**
+
+## Live example
+
+**Use on your AIRxTOUCH™ device with our [extension installed and activated](#install-the-airxtouch-proxy-browser-extension)**
+
+Check ideal use cases and examples for the differents interaction modes at the following url 
+
+https://proxy-sample.airxtouch.com
+
