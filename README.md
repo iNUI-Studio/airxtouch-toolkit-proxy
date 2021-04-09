@@ -1,6 +1,6 @@
-# AIRxTOUCH™ Advanced developer guide for web applications
+# AIRxTOUCH® Advanced developer guide for web applications
 
-## ⚠ This library is only usefull if you own an AIRxTOUCH™ device ⚠
+## ⚠ This library is only usefull if you own an AIRxTOUCH® device ⚠
 
 ## Prerequisite
 
@@ -26,7 +26,7 @@ In order to communicate with the driver with a web app, you need to install our
 ![popup](./docs/images/popup.gif)
 
 
-Keep in mind that this only authorize the current url on your device. You'll need to repeat this action on every AIRxTOUCH™ device for every application.
+Keep in mind that this only authorize the current url on your device. You'll need to repeat this action on every AIRxTOUCH® device for every application.
 
 ## Initialize the connection with the driver in your code
 
@@ -47,9 +47,9 @@ If you did it properly, you will see a badge on the extension icon with the "ON"
 
 ![icon](./docs/images/iconRed.png) If the background color of the badge is red, it means the communication with the driver is not established.
 
-If you are not currently running your application (eg development environnement) on a AIRxTOUCH™ device you can ignore this. 
+If you are not currently running your application (eg development environnement) on a AIRxTOUCH® device you can ignore this. 
 
-If you are running you are running your application on a AIRxTOUCH™ device, make sure the driver is launched (icon in system tray) ![icon](./docs/images/driver.png)
+If you are running you are running your application on a AIRxTOUCH® device, make sure the driver is launched (icon in system tray) ![icon](./docs/images/driver.png)
 
 ## Interact with the driver in your code
 
@@ -89,7 +89,7 @@ You can interact with the driver by adding and editing attributes on the `airxto
 
 ## Live example
 
-**Use on your AIRxTOUCH™ device with our [extension installed and activated](#install-the-airxtouch-proxy-browser-extension)**
+**Use on your AIRxTOUCH® device with our [extension installed and activated](#install-the-airxtouch-proxy-browser-extension)**
 
 Check ideal use cases and examples for the differents interaction modes at the following url 
 
